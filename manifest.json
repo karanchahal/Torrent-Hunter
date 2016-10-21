@@ -1,8 +1,8 @@
 {
   "manifest_version": 2,
 
-  "name": "Getting started example",
-  "description": "This extension shows a Google Image search result for the current page",
+  "name": "Torrent Hunter",
+  "description": "This extension aims to get the relavent magnet link from a sea of advertisements and spam",
   "version": "1.0",
 
   "browser_action": {
@@ -10,7 +10,7 @@
     "default_popup": "popup.html"
   },
   "permissions": [
-    "activeTab",
-    "https://ajax.googleapis.com/"
+    "activeTab"
+
   ]
 }
