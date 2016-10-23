@@ -4,7 +4,8 @@
   "name": "Torrent Hunter",
   "description": "This extension aims to get the relevant magnet link from a sea of advertisements and spam.",
   "browser_action": {
-    "default_icon":"icon.png"
+    "default_icon":"icon-default.png",
+    "default_title":"No torrents on this page"
   },
 
   "version": "1.0.0",
@@ -13,5 +14,11 @@
   },
   "permissions": [
     "activeTab"
-    ]
+    ],
+   "content_scripts":[
+       {
+         "matches": ["http://*/*","https://*/*"],
+         "js": ["script.js"]
+       }
+   ]
 }
