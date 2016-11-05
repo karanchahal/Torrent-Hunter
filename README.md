@@ -15,7 +15,6 @@ Thirdly, on clicking the icon it downloads the torrent file and takes you straig
 
 This extension is for anyone looking to boost productivity and wanting to focus on the tasks that really matter.
 
-![alt text](/Screenshots/one.jpg)
 # Support
 
 This extension is open for issues and support. Please P.M if you have any problems.
